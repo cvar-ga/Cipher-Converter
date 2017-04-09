@@ -12,6 +12,7 @@
 		0AF449B01E98CBA800B2725A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF449AE1E98CBA800B2725A /* Main.storyboard */; };
 		0AF449B21E98CBA800B2725A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF449B11E98CBA800B2725A /* Assets.xcassets */; };
 		0AF449B51E98CBA800B2725A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF449B31E98CBA800B2725A /* LaunchScreen.storyboard */; };
+		0AF449BD1E99F84D00B2725A /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF449BC1E99F84D00B2725A /* iTunesArtwork@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0AF449B11E98CBA800B2725A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AF449B41E98CBA800B2725A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AF449B61E98CBA800B2725A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF449BC1E99F84D00B2725A /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				0AF449AA1E98CBA800B2725A /* AppDelegate.swift */,
 				0AF449AC1E98CBA800B2725A /* ViewController.swift */,
 				0AF449AE1E98CBA800B2725A /* Main.storyboard */,
+				0AF449BC1E99F84D00B2725A /* iTunesArtwork@2x.png */,
 				0AF449B11E98CBA800B2725A /* Assets.xcassets */,
 				0AF449B31E98CBA800B2725A /* LaunchScreen.storyboard */,
 				0AF449B61E98CBA800B2725A /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					0AF449A61E98CBA800B2725A = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 59RN2XZ6G8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +130,7 @@
 				0AF449B51E98CBA800B2725A /* LaunchScreen.storyboard in Resources */,
 				0AF449B21E98CBA800B2725A /* Assets.xcassets in Resources */,
 				0AF449B01E98CBA800B2725A /* Main.storyboard in Resources */,
+				0AF449BD1E99F84D00B2725A /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59RN2XZ6G8;
 				INFOPLIST_FILE = "Cipher Translator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvarga.Cipher-Translator";
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59RN2XZ6G8;
 				INFOPLIST_FILE = "Cipher Translator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvarga.Cipher-Translator";
@@ -301,6 +308,7 @@
 				0AF449BB1E98CBA800B2725A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
