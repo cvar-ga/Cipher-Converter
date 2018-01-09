@@ -19,10 +19,6 @@ class ViewController: UIViewController,UIPickerViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
-        
-        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
-        //tap.cancelsTouchesInView = false
-        
         view.addGestureRecognizer(tap)
         
     }
@@ -315,7 +311,7 @@ class ViewController: UIViewController,UIPickerViewDelegate {
         }
         return temp
     }
-    // WTF AM I DOING
+    
     private func transcipher(input:String,fromIndex:Int,toIndex:Int)->String{
         var str0:String,str1:String
         if(fromIndex==toIndex){

@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AF449A71E98CBA800B2725A /* Cipher Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF449A71E98CBA800B2725A /* Cipher Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cipher Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF449AA1E98CBA800B2725A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AF449AC1E98CBA800B2725A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AF449AF1E98CBA800B2725A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		0AF449A81E98CBA800B2725A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AF449A71E98CBA800B2725A /* Cipher Translator.app */,
+				0AF449A71E98CBA800B2725A /* Cipher Converter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0AF449A61E98CBA800B2725A /* Cipher Translator */ = {
+		0AF449A61E98CBA800B2725A /* Cipher Converter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AF449B91E98CBA800B2725A /* Build configuration list for PBXNativeTarget "Cipher Translator" */;
+			buildConfigurationList = 0AF449B91E98CBA800B2725A /* Build configuration list for PBXNativeTarget "Cipher Converter" */;
 			buildPhases = (
 				0AF449A31E98CBA800B2725A /* Sources */,
 				0AF449A41E98CBA800B2725A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Cipher Translator";
+			name = "Cipher Converter";
 			productName = "Cipher Translator";
-			productReference = 0AF449A71E98CBA800B2725A /* Cipher Translator.app */;
+			productReference = 0AF449A71E98CBA800B2725A /* Cipher Converter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,11 +100,12 @@
 					0AF449A61E98CBA800B2725A = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 59RN2XZ6G8;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0AF449A21E98CBA800B2725A /* Build configuration list for PBXProject "Cipher Translator" */;
+			buildConfigurationList = 0AF449A21E98CBA800B2725A /* Build configuration list for PBXProject "Cipher Converter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AF449A61E98CBA800B2725A /* Cipher Translator */,
+				0AF449A61E98CBA800B2725A /* Cipher Converter */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +273,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvarga.Cipher-Translator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -285,14 +287,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cvarga.Cipher-Translator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AF449A21E98CBA800B2725A /* Build configuration list for PBXProject "Cipher Translator" */ = {
+		0AF449A21E98CBA800B2725A /* Build configuration list for PBXProject "Cipher Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AF449B71E98CBA800B2725A /* Debug */,
@@ -301,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AF449B91E98CBA800B2725A /* Build configuration list for PBXNativeTarget "Cipher Translator" */ = {
+		0AF449B91E98CBA800B2725A /* Build configuration list for PBXNativeTarget "Cipher Converter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AF449BA1E98CBA800B2725A /* Debug */,
