@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cipher_Translator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cipher_Converter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="zyl-vx-Uye">
-                                <rect key="frame" x="13" y="28" width="349" height="295.5"/>
+                                <rect key="frame" x="13" y="48" width="349" height="295.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmW-Tr-5Vv">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="20.5"/>
@@ -44,7 +44,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="oht-Ei-DrP">
-                                <rect key="frame" x="16" y="331" width="343" height="97"/>
+                                <rect key="frame" x="16" y="351" width="343" height="97"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Convert from" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIJ-lS-nhG">
                                         <rect key="frame" x="0.0" y="0.0" width="101" height="20.5"/>
@@ -59,7 +59,7 @@
                                         </constraints>
                                         <segments>
                                             <segment title="English"/>
-                                            <segment title="Caesar"/>
+                                            <segment title="Caesar-2"/>
                                             <segment title="Atbash"/>
                                             <segment title="Polyibus"/>
                                             <segment title="Rail fence"/>
@@ -67,7 +67,7 @@
                                         <color key="tintColor" red="0.88861268940000004" green="0.044620020109999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5c-Do-Bqw">
-                                        <rect key="frame" x="0.0" y="48.5" width="19" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="48.5" width="18.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -79,7 +79,7 @@
                                         </constraints>
                                         <segments>
                                             <segment title="English"/>
-                                            <segment title="Caesar"/>
+                                            <segment title="Caesar-2"/>
                                             <segment title="Atbash"/>
                                             <segment title="Polyibus"/>
                                             <segment title="Rail fence"/>
@@ -92,7 +92,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSv-P0-JPD">
-                                <rect key="frame" x="153" y="523" width="68" height="30"/>
+                                <rect key="frame" x="153" y="543" width="68" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="68" id="Mmd-Fa-Zc9"/>
                                     <constraint firstAttribute="height" constant="30" id="c18-Ns-hbb"/>
